@@ -283,6 +283,24 @@ p {
   padding: 1.6rem;
 }
 
+.project-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-link {
+  margin-top: auto;
+  padding-top: 1rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--accent-dark);
+}
+
+.project-link:hover,
+.project-link:focus-visible {
+  color: var(--accent);
+}
+
 .contact-section {
   padding-bottom: 6rem;
 }
